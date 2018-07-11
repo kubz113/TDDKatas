@@ -8,4 +8,8 @@ Implement a class that calculates the score of a given bowling game. The idea to
 
 ## [Prime Factors](https://github.com/kubz113/TDDKatas/tree/master/PrimeFactorsKata)
 
-This class implements a function that returns a list of the prime factors of a given integer. The idea to implement this kata was take from http://osherove.com/tdd-kata-1/. This kata was proven useful, because I refactored my solution multiple times. The recommended unit tests are pretty straight forward; just go in order starting at one and continuing until your solution passes the test without a code change.
+This class implements a function that returns a list of the prime factors of a given integer. This kata was proven useful, because I refactored my solution multiple times. The recommended unit tests are pretty straight forward; just go in order starting at one and continuing until your solution passes the test without a code change.
+
+## [Integer to Roman Numeral Converter](https://github.com/kubz113/TDDKatas/tree/master/RomanNumeralKata)
+
+I found a suggestion online to create a function that converts a Roman Numeral to an integer. This seemed less exciting than the reverse, converting an integer to a Roman Numeral. This functionality required many unit tests to figure out how to correctly implement it. I would recommend writing unit tests for every single digit starting from 1 until you figure out the pattern. After that, write unit tests for numbers that will contain new numerals, i.e 50, 100, 500, etc.
