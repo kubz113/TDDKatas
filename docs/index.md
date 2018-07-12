@@ -13,3 +13,7 @@ This class implements a function that returns a list of the prime factors of a g
 ## [Integer to Roman Numeral Converter](https://github.com/kubz113/TDDKatas/tree/master/RomanNumeralKata)
 
 I found a suggestion online to create a function that converts a Roman Numeral to an integer. This seemed less exciting than the reverse, converting an integer to a Roman Numeral. This functionality required many unit tests to figure out how to correctly implement it. I would recommend writing unit tests for every single digit starting from 1 until you figure out the pattern. After that, write unit tests for numbers that will contain new numerals, i.e 50, 100, 500, etc.
+
+## [String Calculator](http://osherove.com/tdd-kata-1/)
+
+Implements a function that adds all the integers in a String that are separated by a common delimiter. A more detailed explanation can be found here http://osherove.com/tdd-kata-1/. This problem focused on making sure that all your tests run after code changes. Each time a unit test passed, the next test would cover a new functionality. The functionality usually affected the current code, so I had to make sure I did not break any other functionality while expanding my code.
